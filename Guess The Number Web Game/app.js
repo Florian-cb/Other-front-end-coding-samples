@@ -8,7 +8,7 @@ const targetNum = Math.floor(Math.random() * maximum) + 1;
 
 let guess = parseInt(prompt("Enter your first guess:"));
 
-let guess = 1;
+let attempts = 1;
 
 while (parseInt(guess) !== targetNum) {
 
